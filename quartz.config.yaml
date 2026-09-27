@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: "/Dzhao_Knowledge"
+  baseUrl: "alichesa.github.io/Dzhao_Knowledge"
   ignorePatterns:
     - private
     - templates
@@ -148,7 +148,7 @@ plugins:
   - source: "@quartz-community/og-image"
     enabled: true
   - source: "@quartz-community/cname"
-    enabled: true
+    enabled: false # 没有自定义域名，禁用 CNAME 生成，避免写入无效域名干扰 GitHub Pages
   - source: "@quartz-community/canvas-page"
     enabled: true
   - source: "@quartz-community/content-page"
