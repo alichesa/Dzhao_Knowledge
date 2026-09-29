@@ -13,7 +13,21 @@
 /* ---------- 页面标题去重：自定义 hero 的页面隐藏 article-title ---------- */
 body[data-slug="index"] .article-title,
 body[data-slug="知识体系"] .article-title,
-body[data-slug="简历"] .article-title {
+body[data-slug="简历"] .article-title,
+body[data-slug="l0编程语言"] .article-title,
+body[data-slug="l0数据结构与算法"] .article-title,
+body[data-slug="l0计算机网络"] .article-title,
+body[data-slug="l0操作系统与并发"] .article-title,
+body[data-slug="l0数学与建模"] .article-title,
+body[data-slug="l1图像处理与融合"] .article-title,
+body[data-slug="l1深度学习模型与训练"] .article-title,
+body[data-slug="l1相机标定与几何视觉"] .article-title,
+body[data-slug="l2cuda编程与性能调优"] .article-title,
+body[data-slug="l2模型压缩与推理加速"] .article-title,
+body[data-slug="l2onnx与模型转换"] .article-title,
+body[data-slug="l2工程化部署"] .article-title,
+body[data-slug="l3存储与云平台后端"] .article-title,
+body[data-slug="l4横向综合能力"] .article-title {
   display: none;
 }
 
