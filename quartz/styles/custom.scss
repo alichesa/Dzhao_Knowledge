@@ -199,6 +199,25 @@ pre {
   color: color-mix(in srgb, var(--secondary) 75%, var(--gray));
 }
 
+/* ---------- 成长中领域卡片（与已掌握区分） ---------- */
+.growing-cards .nav-card {
+  border: 1.5px dashed color-mix(in srgb, var(--tertiary) 45%, var(--lightgray));
+  background: color-mix(in srgb, var(--tertiary) 5%, var(--light));
+}
+.growing-cards .nav-card:hover {
+  border-style: solid;
+  border-color: color-mix(in srgb, var(--tertiary) 55%, var(--lightgray));
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+.growing-cards .nav-card-title::after {
+  content: " · 成长中";
+  color: var(--tertiary);
+  font-weight: 600;
+}
+.growing-cards .nav-card-tag {
+  color: color-mix(in srgb, var(--tertiary) 80%, var(--gray));
+}
+
 /* ================================================================
    知识架构卡片（层级）
    ================================================================ */
