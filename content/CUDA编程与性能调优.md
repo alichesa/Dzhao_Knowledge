@@ -1,7 +1,7 @@
 <div class="hero">
-  <span class="hero-eyebrow">L2 · 加速与部署层</span>
+  <span class="hero-eyebrow">领域 · 高性能计算与推理部署</span>
   <h1>CUDA 编程与性能调优</h1>
-  <p class="hero-sub">手写算子的能力——让算法在 GPU 上跑出性能上限。</p>
+  <p class="hero-sub">GPU 算子手写与性能调优。</p>
 </div>
 
 ## 技能清单
@@ -12,4 +12,4 @@
 | CUDA 性能调优 | 动手实践级 | warp 对齐、共享内存、const __restrict__（约 3 倍加速）、CUDA 流重叠、float4 向量化、减少 bank conflict | → BM3D 改造；TensorRT |
 
 ---
-相关页面：[[知识体系]] · [[简历]] · [[L2模型压缩与推理加速]] · [[L2ONNX与模型转换]] · [[L2工程化部署]]
+相关页面：[[知识体系]] · [[简历]] · [[模型压缩与推理加速]] · [[ONNX与模型转换]] · [[工程化部署]]
